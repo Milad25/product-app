@@ -1,0 +1,45 @@
+.filter {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: 1rem;
+}
+
+/* .select {
+  width: 10rem;
+}
+
+.selectContainer {
+  display: flex;
+  align-items: center;
+}
+
+.selectContainer span {
+  display: block;
+  margin: 1rem 1rem;
+} */
+
+
+/* --------------- */
+
+.formControl {
+  display: flex;
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.formControl input {
+  outline: none;
+  border: 1px solid #6d28d9;
+  border-radius: 5px;
+  padding: 5px 2px;
+  color: #6d28d9;
+  margin-left: .5rem;
+}
+
+.formControl input:focus {
+  border: 2px solid #6d28d9;
+}

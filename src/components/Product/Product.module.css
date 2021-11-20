@@ -1,0 +1,52 @@
+.product {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+}
+
+.button {
+  color: #6d28d9;
+  background-color: #fff;
+  border: 1px solid #6d28d9;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.inc {
+  background-color: #ede9fe;
+}
+
+.value {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: #ede9fe;
+  color: #6d28d9;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  outline: none;
+  border: 1px solid #6d28d9;
+  border-radius: 5px;
+  padding: 5px 2px;
+  color: #6d28d9;
+}
+
+.input:focus {
+  border: 2px solid #6d28d9;
+}
+
+.remove {
+  color: rgb(236, 68, 68);
+  border: 1px solid rgb(236, 68, 68);
+}

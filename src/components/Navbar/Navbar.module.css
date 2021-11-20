@@ -1,0 +1,29 @@
+.navbar {
+  width: 100%;
+  background-color: #efefef;
+  /* height: 100px; */
+  text-align: center;
+  display: flex;
+  padding: 15px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar h2 {
+  font-size: 16px;
+  color: #444;
+}
+
+.navbar span {
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 14px;
+  width: 20px;
+  height: 20px;
+  background-color: #bfb5e9;
+  color: #6d28d9;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
